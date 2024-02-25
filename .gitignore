@@ -268,3 +268,5 @@ pip-selfcheck.json
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,linux,venv,git,python,visualstudiocode
+
+raw_data/*
