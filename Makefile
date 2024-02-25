@@ -11,3 +11,10 @@ dataset:
 		--cooling_time=30 \
 		--max_replicas=10 \
 		--min_replicas=3 \
+
+.PHONY: finetune
+finetune:
+	python3 finetune.py \
+		--dataset=ift_dataset \
+		--checkpoint=mistralai/Mistral-7B-v0.1 \
+		--ft_checkpoint=ft_ckpt \
